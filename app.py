@@ -51,33 +51,25 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-header[data-testid="stHeader"] {
-    background-color: #0E1117;
+html, body, [data-testid="stAppViewContainer"] {
+    background-color: #0E1117 !important;
+    color: #FFFFFF !important;
+}
+
+[data-testid="stHeader"] {
+    background-color: #0E1117 !important;
 }
 
 [data-testid="stToolbar"] {
-    background-color: #0E1117;
+    background-color: #0E1117 !important;
+}
+
+.main {
+    background-color: #0E1117 !important;
 }
 
 [data-testid="stSidebar"] {
-    background-color: #111827;
-}
-
-[data-testid="stFileUploader"] section {
-    background-color: #161B22;
-    border: 1px solid #334155;
-}
-
-[data-testid="stFileUploader"] button {
-    background-color: #1F2937;
-    color: white;
-    border: 1px solid #3B82F6;
-}
-
-div[data-baseweb="select"] > div {
-    background-color: #161B22;
-    color: white;
-    border-color: #334155;
+    background-color: #111827 !important;
 }
 </style>
 """, unsafe_allow_html=True)
