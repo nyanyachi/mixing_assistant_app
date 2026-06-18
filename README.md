@@ -51,9 +51,9 @@ The goal is to reduce guesswork and provide a structured starting point for voca
 * Korean / English / Japanese support
 * Multilingual user interface
 
-## Language
+## Language Support
 
-- English (Current)
+- English
 - [한국어](README_KR.md)
 - [日本語](README_JP.md)
 
@@ -87,12 +87,12 @@ streamlit run app.py
 - Pandas
 - SciPy
 
-## Version
+## Current Version
 
 ### v0.3
 
-* Multilingual support added
-* Korean / English / Japanese UI
-* Improved Mix Coach workflow
-* Improved Quick Start recommendations
-* EQ Assistant localization
+- Multilingual support added
+- Korean / English / Japanese UI
+- Improved Mix Coach workflow
+- Improved Quick Start recommendations
+- EQ Assistant localization
