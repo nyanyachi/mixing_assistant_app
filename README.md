@@ -4,6 +4,10 @@ A Python-based web application that analyzes vocal recordings and provides mixin
 
 Built with Streamlit and audio analysis libraries, the application evaluates vocal characteristics such as loudness, dynamics, frequency balance, and sibilance, then generates practical mixing guidance.
 
+## Live Demo
+
+[https://...](https://mixingassistantapp.streamlit.app/)
+
 ## Overview
 
 Mixing Assistant was created to help vocal cover creators quickly identify potential issues in their recordings before opening a DAW.
@@ -11,20 +15,6 @@ Mixing Assistant was created to help vocal cover creators quickly identify poten
 Rather than performing automatic mixing, the application analyzes audio features and provides recommendations for compression, de-essing, EQ adjustments, and workflow preparation.
 
 The goal is to reduce guesswork and provide a structured starting point for vocal mixing.
-
-
-## Language
-
-- English (Current)
-- [한국어](README_KR.md)
-- [日本語](README_JP.md)
-
-Instead, it helps answer:
-
-* What should I adjust first?
-* Do I need a Compressor?
-* Do I need a De-Esser?
-* Is the vocal too bright or too dark?
 
 ## What This Project Demonstrates
 
@@ -61,6 +51,21 @@ Instead, it helps answer:
 * Korean / English / Japanese support
 * Multilingual user interface
 
+## Language
+
+- English (Current)
+- [한국어](README_KR.md)
+- [日本語](README_JP.md)
+
+## Common Questions
+
+- What should I adjust first?
+- Do I need a Compressor?
+- Do I need a De-Esser?
+- Is the vocal too bright or too dark?
+
+
+
 ## Installation
 
 ```bash
@@ -73,14 +78,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Technology
+## Tech Stack
 
-* Python
-* Streamlit
-* Librosa
-* NumPy
-* Pandas
-* SciPy
+- Python
+- Streamlit
+- Librosa
+- NumPy
+- Pandas
+- SciPy
 
 ## Version
 
