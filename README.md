@@ -1,10 +1,17 @@
-# 🎙️ Mixing Assistant
+# Mixing Assistant
 
-A small vocal mixing assistant built with Python and Streamlit.
+A Python-based web application that analyzes vocal recordings and provides mixing recommendations to help creators prepare tracks before the mixing process.
 
-Mixing Assistant is designed to help vocal cover creators analyze recordings before starting the mixing process.
+Built with Streamlit and audio analysis libraries, the application evaluates vocal characteristics such as loudness, dynamics, frequency balance, and sibilance, then generates practical mixing guidance.
 
-This is not an automatic mixing tool.
+## Overview
+
+Mixing Assistant was created to help vocal cover creators quickly identify potential issues in their recordings before opening a DAW.
+
+Rather than performing automatic mixing, the application analyzes audio features and provides recommendations for compression, de-essing, EQ adjustments, and workflow preparation.
+
+The goal is to reduce guesswork and provide a structured starting point for vocal mixing.
+
 
 ## Language
 
@@ -19,20 +26,40 @@ Instead, it helps answer:
 * Do I need a De-Esser?
 * Is the vocal too bright or too dark?
 
+## What This Project Demonstrates
+
+* Python application development
+* Audio feature extraction and analysis
+* Interactive web application development with Streamlit
+* Recommendation system design
+* Multilingual user interface support
+* CSV report generation
+* User-focused workflow design
+* Deployment and project maintenance workflows
+
 ## Features
+
+### Audio Analysis
 
 * WAV vocal file analysis
 * Peak level analysis
 * RMS loudness analysis
 * Volume variation analysis
 * Frequency band analysis
-* Compressor Need score
-* De-Esser Need score
+
+### Mixing Recommendations
+
+* Compressor Need Score
+* De-Esser Need Score
 * EQ Assistant
-* Mix Ready indicator
-* Fairlight Quick Start workflow
+* Mix Ready Indicator
+* Fairlight Quick Start Workflow
+
+### Additional Features
+
 * CSV export
 * Korean / English / Japanese support
+* Multilingual user interface
 
 ## Installation
 
