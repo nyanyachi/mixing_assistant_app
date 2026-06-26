@@ -65,6 +65,13 @@ def analyze_frequency_bands(y, sr):
 
     total_energy = np.sum(stft)
 
+    if total_energy <= 1e-10:
+        return {
+            "low_percent": 0.0,
+            "mid_percent": 0.0,
+            "high_percent": 0.0
+        }
+
     low_mask = (freqs >= 20) & (freqs < 250)
     mid_mask = (freqs >= 250) & (freqs < 4000)
     high_mask = (freqs >= 4000) & (freqs < 12000)
@@ -151,6 +158,9 @@ def analyze_sibilance(y, sr):
     freqs = librosa.fft_frequencies(sr=sr)
 
     total_energy = np.sum(stft)
+
+    if total_energy <= 1e-10:
+        return 0.0
 
     sibilance_mask = (
         (freqs >= 5000) &
@@ -249,7 +259,7 @@ def generate_quick_start(result, T):
 
     steps.append(T["quick_reverb"])
 
-    return steps[:3]
+    return steps
 
 # 추가 4.0V
 def generate_eq_suggestions(result, T):

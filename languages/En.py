@@ -43,7 +43,7 @@ TEXT = {
     "The basic status is okay, but please check a few adjustments first.",
 
     "error_message":
-    "Mixing ready status is good. You can quickly check the tasks for today in order.",
+    "Please check the Gain, EQ, and Compressor status before mixing.",
 
     "details":
     "Detailed Analysis",

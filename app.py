@@ -6,6 +6,13 @@ from languages.Jp import TEXT as JP
 from audio_analyzer import analyze_audio
 
 
+st.set_page_config(
+    page_title="Mixing Assistant",
+    page_icon="🎙️",
+    layout="wide"
+)
+
+
 def get_need_label(score):
 
     if score < 30:
@@ -43,11 +50,6 @@ elif language == "English":
 else:
     T = JP
 
-st.set_page_config(
-    page_title="Mixing Assistant",
-    page_icon="🎙️",
-    layout="wide"
-)
 
 st.markdown("""
 <style>
@@ -87,6 +89,7 @@ with st.sidebar:
 
 if uploaded_file is not None:
     with st.spinner(T["analyzing"]):
+        uploaded_file.seek(0)
         result = analyze_audio(uploaded_file, T)
 
     st.header(T["mix_comment"])
