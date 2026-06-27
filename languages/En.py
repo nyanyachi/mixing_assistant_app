@@ -100,6 +100,9 @@ TEXT = {
     "download":
     "Download CSV",
 
+    "download_txt":
+    "Download TXT Report",
+
     "waiting":
     "Upload a WAV file from the sidebar to begin analysis.",
 
@@ -137,4 +140,19 @@ TEXT = {
 
     "eq_not_needed":
     "EQ adjustment is probably unnecessary",
+    "pre_upload_title":
+    "🎙️ Before You Start",
+
+    "pre_upload_guidance":
+"""
+✅ Supported format: WAV
+
+✅ One vocal track at a time
+
+✅ Mono or stereo supported
+
+✅ Recommended sample rate: 44.1kHz or 48kHz
+
+This app is a mixing coach. It helps you decide what to check before mixing instead of automatically mixing your audio.
+""",
 }

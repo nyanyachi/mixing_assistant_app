@@ -1,0 +1,14 @@
+﻿{
+  "project_name": "Mixing Assistant",
+  "version": "0.4",
+  "status": "Testing",
+  "priority": "High",
+  "progress": 90,
+  "current_goal": "v0.4 실제 보컬 WAV QA Round #1 진행",
+  "next_action": "정상 녹음, 작은 소리, 큰 소리, 다이나믹 큰 녹음, 치찰음, 저음 과다, 밝은 보컬, 클리핑, 무음, 실제 커버곡 WAV로 QA 테스트를 진행한다.",
+  "blockers": [
+    "실제 WAV QA가 아직 완료되지 않음",
+    "QA 결과 전까지 Threshold 튜닝 보류"
+  ],
+  "last_updated": "2026-06-27"
+}
